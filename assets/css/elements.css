@@ -12,6 +12,7 @@
 	+ Header
 		- Header1
 		- Header2
+		
 	+ Footer
 		- Footer1
 		- Footer2
@@ -57,9 +58,9 @@
 /* + Header */
 /* - Header1 */
 .top-header1 {
-	background-color: #232323;
+	background-color: #202d75;
 	position: relative;
-	padding: 18px 0;
+	padding: 3px 0;
 }
 .top-header1 .container {
 	position: relative;
@@ -79,12 +80,12 @@
 	padding-right: 0;
 }
 .top-header1 .contact-block p > i {
-	color: #fcb100;
+	color: #91080d;
 	padding-right: 10px;
 	vertical-align: middle;
 }
 .top-header1 .contact-block p > a {
-	color: #ababab;
+	color: #fff;
 	text-decoration: none;
 	-webkit-transition: all 1s ease 0s;
 	-moz-transition: all 1s ease 0s;
@@ -92,16 +93,15 @@
 	transition: all 1s ease 0s;
 }
 .top-header1 .contact-block p > a:hover {
-	color: #fcb100;
+	color: #91080d;
 }
 .top-header1 .register-block {
 	float: right;
-	font-family: 'Lora', serif;
-	letter-spacing: 0.56px;
+	font-family: 'Lato', sans-serif;	letter-spacing: 0.56px;
 	line-height: 30px;
 }
 .top-header1 .register-block a {
-	color: #ababab;
+	color: #fff;
 	text-decoration: none;
 	-webkit-transition: all 1s ease 0s;
 	-moz-transition: all 1s ease 0s;
@@ -109,7 +109,7 @@
 	transition: all 1s ease 0s;
 }
 .top-header1 .register-block > a:hover {
-	color: #fcb100;
+	color: #91080d;
 }
 .top-header1 .register-block > a::after {
 	content: "|";
@@ -118,7 +118,7 @@
 }
 .top-header1 .register-block a > i,
 .top-header1 .register-block .dropdown .btn i {
-	color: #fcb100;
+	color: #91080d;
 	padding-right: 10px;
 }
 .top-header1 .register-block .language-dropdown.dropdown {
@@ -126,7 +126,7 @@
 }
 .top-header1 .register-block .dropdown .btn {
     background-color: transparent;
-	color: #ababab;
+	color: white;
     padding: 0;
 }
 .top-header1 .language-dropdown .dropdown-menu {
@@ -137,7 +137,7 @@
 	right: 0;
 }
 .logo-block {
-	padding: 35px 0;
+	padding: 16px 0;
 }
 .logo-block .support-detail {
 	float: right;
@@ -164,7 +164,7 @@
 }
 .logo-block .support-detail .support-box h5 {
 	color: #004586;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 20px;
 	margin-top: 0;
 }
@@ -270,7 +270,7 @@
 }
 .footer-main h3.widget-title {
 	color: #fff;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	letter-spacing: 0.64px;
 	margin-top: 0;
@@ -292,7 +292,7 @@
     width: 100%;
 }
 .footer-main .widget p {
-	color: #b4b4b4;
+	color: #fff;
 	letter-spacing: 0.56px;
 	line-height: 22px;
 }
@@ -309,7 +309,7 @@
 	margin-bottom: 0;
 }
 .footer-main .widget ul li a {
-	color: #b4b4b4;
+	color: #fff;
 	-webkit-transition: all 1s ease 0s;
 	-moz-transition: all 1s ease 0s;
 	-o-transition: all 1s ease 0s;
@@ -344,12 +344,12 @@
 	letter-spacing: 0.52px;
 }
 .footer-main .widget_newsletter input[type="submit"] {
-	background-color: #fcb100;
+	background-color: #91080d;
     border: medium none;
     border-radius: 0;
     color: #232323;
     display: inline-block;
-    font-family: "Ubuntu",sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 13px;
     letter-spacing: 0.52px;
     padding: 12px 54px;
@@ -362,7 +362,7 @@
 }
 .footer-main .widget_newsletter input[type="submit"]:hover {
 	background-color: #fff;
-	color: #fcb100;
+	color: #91080d;
 }
 .footer-main ul.footer-social li {
 	display: inline-block;
@@ -377,14 +377,12 @@
 
 /* - Footer1 */
 .footer-main-1 {
-	background-image: url("../images/ftr-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-color: #202d75;
    
     position: relative;
 }
 .footer-main-1::before {
-	background-color: rgba(35, 35, 35, 0.9);
+	background-color: ;
     bottom: 0;
     content: "";
     display: inline-block;
@@ -515,7 +513,7 @@
 .section-header h3 {
 	color: #232323;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 32px;
 	line-height: 30px;
 	letter-spacing: 1.28px;
@@ -570,7 +568,7 @@
 .page-banner .banner-content h3 {
 	color: #fcb100;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 32px;
 	letter-spacing: 1.28px;
@@ -587,7 +585,7 @@
 .page-banner .banner-content .breadcrumb li, 
 .page-banner .banner-content .breadcrumb li a {
 	color: #fff;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
     font-size: 13px;
     text-decoration: none;
@@ -786,8 +784,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 19px;
+	padding-bottom: 24px;
 	text-align: center;
 }
 .news-letter::before {
@@ -806,7 +804,7 @@
 }
 .news-letter .news-letter-box h5 {
 	color: #fff;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 24px;
 	letter-spacing: 0.96px;
@@ -862,10 +860,10 @@
 	color: #014280;
 }
 .news-letter a.subscribe {
-	background-color: #fcb100;
-	color: #232323;
+	background-color: #91080d;
+	color: white;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	letter-spacing: 0.64px;
@@ -880,10 +878,10 @@
 }
 .news-letter a.subscribe:hover {
 	background-color: #232323;
-	color: #fcb100;
+	color: #91080d;
 }
 .news-letter .news-letter-box p {
-	color: #fcb100;
+	color: #91080d;
 	font-weight: 700;
 	font-size: 16px;
 	letter-spacing: 0.64px;
@@ -927,8 +925,8 @@
 	padding: 0 20px;
 }
 .domain-section .domain-list ul li a > span {
-	color: #fcb100;
-	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	font-family: 'Poppins', sans-serif;
 	font-weight: normal;
 	font-size: 18px;
 	padding-left: 12px;
@@ -936,7 +934,7 @@
 .domain-section .domain-list h6 {
 	color: #fff;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	margin-bottom: 0;
 }
@@ -965,7 +963,7 @@
 }
 .service-section .srv-content h5 {
 	color: #232323;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 22px;
 	letter-spacing: 0.88px;
@@ -975,8 +973,7 @@
 }
 .service-section .srv-content p {
 	color: #777;
-	font-family: 'Lora', serif;
-	letter-spacing: 0.56px;
+	font-family: 'Lato', sans-serif;	letter-spacing: 0.56px;
 	line-height: 20px;
 	margin-bottom: 0;
 }
@@ -993,11 +990,11 @@
 	margin-bottom: 30px;
 }
 .service-section1 a.view-more {
-	background-color: #fcb100;
+	background-color: #91080d;
 	border-radius: 10px;
 	color: #232323;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	margin-left: 15px;
 	padding: 10px 33px;
@@ -1052,8 +1049,7 @@
 	border: 1px solid #e0e7ed;
 }
 .build-section .build-box h5 {
-	font-family: 'Lora', serif;
-	font-size: 16px;
+	font-family: 'Lato', sans-serif;	font-size: 16px;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -1065,7 +1061,7 @@
 	border-radius: 10px;
 	color: #232323;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	margin-left: 15px;
 	padding: 10px 33px;
@@ -1132,7 +1128,7 @@
 	border-radius: 100%;
 	color: #232323;
 	display: block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 13px;
 	height: 25px;
@@ -1145,7 +1141,7 @@
 }
 .build-section2 .build-block h5 {
 	color: #232323;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	letter-spacing: 0.64px;
 	line-height: 30px;
@@ -1169,7 +1165,7 @@
 	border-radius: 10px;
 	color: #232323;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 13px;
 	letter-spacing: 0.52px;
@@ -1223,7 +1219,7 @@
 }
 .counter-section .counter-box p {
 	color: #fcb100;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 20px;
 	margin-bottom: 0;
 	letter-spacing: 0.8px;
@@ -1234,11 +1230,11 @@
 
 /* - Pricing Section */
 .pricing-section {
-	padding-top: 145px;
-	padding-bottom: 85px;
+	padding-top: 28px;
+	padding-bottom: 0px;
 }
 .pricing-section .section-header {
-	margin-bottom: 70px;
+	margin-bottom: 30px;
 }
 .pricing-section .pricing-box {
 	background-color: #f9f9f9;
@@ -1260,7 +1256,7 @@
 }
 .pricing-section .pricing-box h4 {
 	color: #004586;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 20px;
 	letter-spacing: 0.8px;
 	line-height: 30px;
@@ -1285,7 +1281,7 @@
 .pricing-section .pricing-box h3 {
 	color: #232323;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 32px;
 	line-height: 30px;
 	margin-top: 30px;
@@ -1296,8 +1292,7 @@
 	transition: all 1s ease 0s;
 }
 .pricing-section .pricing-box h3 sub {
-	font-family: 'Lora', serif;
-	font-size: 14px;
+	font-family: 'Lato', sans-serif;	font-size: 14px;
 	font-style: italic;
 	letter-spacing: 0.56px;
 	text-transform: capitalize;
@@ -1320,7 +1315,7 @@
 	border-radius: 10px;	
 	color: #004586;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	letter-spacing: 0.56px;
 	margin-bottom: 35px;
 	padding: 12px 43px;
@@ -1377,7 +1372,7 @@
 	border-radius: 10px;
 	color: #fff;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	margin-left: 15px;
 	padding: 10px 33px;
@@ -1424,7 +1419,7 @@
 }
 .call-out .callout-content h5 {
 	color: #fff;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 28px;
 	letter-spacing: 1.12px;
@@ -1488,7 +1483,7 @@
 }
 .team-section .team-content h5 {
 	color: #004586;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	letter-spacing: 0.64px;
 	line-height: 30px;
@@ -1499,8 +1494,7 @@
 }
 .team-section .team-content span {
 	color: #232323;
-	font-family: 'Lora', serif;
-	letter-spacing: 0.56px;
+	font-family: 'Lato', sans-serif;	letter-spacing: 0.56px;
 }
 .team-section .team-social {
 	padding-left: 0;
@@ -1630,7 +1624,7 @@
 }
 .support-section .support-box h5 {
 	color: #004586;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 20px;
 	line-height: 30px;
 	margin-top: 28px;
@@ -1662,7 +1656,7 @@
 	background-color: #fcb100;
 	border-radius: 0;
 	color: #232323;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 14px;
 	letter-spacing: 0.56px;
@@ -1711,7 +1705,7 @@
 }
 .offer-section .offer-details-tab .offer-box h5 {
 	color: #232323;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
 	font-weight: 500;
 	letter-spacing: 0.72px;
@@ -1730,7 +1724,7 @@
 	border-radius: 10px;
 	color: #232323;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	padding: 12px 40px;
 	text-decoration: none;
@@ -1763,7 +1757,7 @@
 .type-post span.post-date {
 	background-color: #fcb100;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	font-size: 24px;
 	padding: 8px 12px;
@@ -1797,7 +1791,7 @@
 	letter-spacing: 2.16px;
 }
 .type-post .blog-content h3.entry-title {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 22px;
 	letter-spacing: 0.88px;
@@ -1872,7 +1866,7 @@
     color: #232323;
     display: inline-block;
     font-size: 14px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
     letter-spacing: 0.56px;
     margin-top: 6px;
@@ -1951,7 +1945,7 @@
 .type-post .entry-content blockquote {
 	border-left: 3px solid #fcb100;
 	color: #777;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-style: italic;
 	font-size: 16px;
 	line-height: 26px;
@@ -2044,7 +2038,7 @@
 .section-heading h3 {
 	border-bottom: 1px solid #ececec;
 	color: #232323;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 22px;
 	letter-spacing: 0.88px;
@@ -2070,7 +2064,7 @@
 }
 .comment-section .media-heading {
 	color: #232323;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 18px;
 	display: inline-block;
@@ -2162,7 +2156,7 @@
 	font-size: 14px;
 	display: inline-block;
 	font-weight: 500;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	background-color: #fcb100;
 	border: none;
 	border-radius: 0;
@@ -2225,7 +2219,7 @@
 }
 .testimonial-section .item .client-intro h5 {
 	color: #232323;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
 	letter-spacing: 0.72px;
 	line-height: 30px;
@@ -2304,7 +2298,7 @@
 	line-height: 30px;
 	letter-spacing: 0.64px;
 	text-transform: capitalize;	
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	background-color: #f9f9f9;
 }
 .accordion-block .panel-title a::before {
@@ -2387,7 +2381,7 @@
 }
 .error-page .error-content p {
 	color: #282d33;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 24px;
 	letter-spacing: 0.96px;
 	margin-bottom: 0;
@@ -2476,8 +2470,7 @@
 	border-color: #ececec;
 	border-radius: 0;
 	box-shadow: none;
-	font-family: 'Lora', serif;
-	letter-spacing: 0.56px;
+	font-family: 'Lato', sans-serif;	letter-spacing: 0.56px;
 	height: 50px;
 }
 .contact-form textarea.form-control {
@@ -2500,7 +2493,7 @@
     border: medium none;
     color: #232323;
     display: inline-block;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 22px;
