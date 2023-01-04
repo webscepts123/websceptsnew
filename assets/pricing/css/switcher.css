@@ -94,7 +94,7 @@
 .selector-switcher {
   text-align: center; }
   .selector-switcher .selector-switch {
-    background: linear-gradient(135deg, #fa2b7f, #fb6a44);
+    background-color: rgb(145, 8, 13) ;
     border: 1px solid #fff;
     position: absolute;
     top: 2px;
@@ -110,7 +110,7 @@
     display: inline-block;
     position: relative;
     padding: 2px;
-    background: radial-gradient(#b76cd2, #4c3bb3);
+    background-color: #202d75;
     border-radius: 50em; }
   .selector-switcher input[type="radio"] {
     position: absolute;
