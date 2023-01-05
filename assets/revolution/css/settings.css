@@ -207,7 +207,7 @@ website:   	http://www.themepunch.com
 
 }
 
-.tp-svg-layer svg {	width:100%; height:100%;position: relative;vertical-align: top}
+.tp-svg-layer svg {	width:100%; height:50%;position: relative;vertical-align: top}
 
 	
 /* CAROUSEL FUNCTIONS */
