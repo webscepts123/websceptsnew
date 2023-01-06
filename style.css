@@ -332,9 +332,50 @@ a {
 
 .cros-pricing-table.st_s-1.white {
     padding: 8px 36px 26px 40px;
-    background: lightblue;
+    background: #eae9e9;
     line-height: 34px;
 }
+
+
+ul.plan-features.check-list
+{
+	margin-left: -22px;
+}
+
+.owl-nav .owl-next, .owl-nav .owl-prev {
+	position: absolute;
+	top: 48%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+.owl-nav .owl-next {
+	right: 0;
+	display: flex;
+	margin-right: 2%;
+	font-size: 25px !important;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: inherit;
+    border: none;
+	padding: 3px 17px 6px 17px!important;    
+	font: inherit;
+    margin-left: -64px;
+	margin-right: -64px;
+	background-color: #91080d;
+	color: white;
+    border-radius: 50px;
+}
+
+.owl-nav .owl-prev{
+	left: 0;
+	display: flex;
+	margin-left: 2%;
+	font-size: 25px !important;
+}
+
+
 
 .btn-primary, .suggested-domains .btn:not(.domain-contact-support).checkout {
     color: #fff;
