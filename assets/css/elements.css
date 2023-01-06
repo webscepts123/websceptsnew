@@ -866,6 +866,7 @@
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 500;
 	font-size: 16px;
+	border-radius: 10px;
 	letter-spacing: 0.64px;
 	padding: 13px 38px;
 	text-transform: uppercase;
@@ -877,8 +878,9 @@
 	transition: all 1s ease 0s;
 }
 .news-letter a.subscribe:hover {
-	background-color: #232323;
-	color: #91080d;
+	background-color: #fcb100;
+	border-radius: 10px;
+	color: #fff;
 }
 .news-letter .news-letter-box p {
 	color: #91080d;
@@ -943,7 +945,7 @@
 
 /* - Services Section */
 .service-section {
-	padding-top: 145px;
+	padding-top: 37px;
 	padding-bottom: 80px;
 }
 .service-section .srv-content {
