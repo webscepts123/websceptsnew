@@ -5,6 +5,7 @@
 	Last change: 
 	Version: 1.0
 	Assigned to:
+	
 	Primary use:
 -------------------------------*/
 
@@ -186,7 +187,7 @@
 	font-size: 13px;
 	height: auto;
 	letter-spacing: 0.52px;
-	padding: 10px 15px;
+	padding: 10px 99px;
 }
 .search-block .form-control::-webkit-input-placeholder {
    color: #777;
@@ -784,8 +785,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	padding-top: 19px;
-	padding-bottom: 24px;
+	padding-top: 10px;
+	padding-bottom: 11px;
 	text-align: center;
 }
 .news-letter::before {
@@ -945,8 +946,8 @@
 
 /* - Services Section */
 .service-section {
-	padding-top: 37px;
-	padding-bottom: 80px;
+	padding-top: 39px;
+	padding-bottom: 17px;
 }
 .service-section .srv-content {
 	margin-bottom: 65px;
@@ -1194,7 +1195,7 @@
 	background-image: url("../images/counter-bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 135px 0;
+	padding: 35px 0;
 }
 .counter-section .counter-box {
 	border-right: 1px solid #014c72;
